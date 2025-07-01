@@ -1,0 +1,236 @@
+.estimationDiv {
+  width: 100%;
+  margin-top: 30px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+    180deg,
+    #3360b7 0%,
+    rgba(46, 111, 166, 0.95) 54.69%,
+    rgba(0, 0, 0, 0.47) 100%,
+    rgba(6, 17, 20, 0.24) 100%
+  );
+}
+.estimationDiv p {
+  padding: 20px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  text-align: left;
+  font-weight: 800;
+  margin-bottom: 0px;
+  line-height: normal;
+}
+.imgCostEstimation {
+  width: 95%;
+}
+.CostType {
+  color: white;
+  background-color: black;
+  padding: 30px;
+  color: #68a1d2;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.costContaainer {
+  margin-top: 40px;
+}
+.costContaainer span {
+  background-color: #68a1d2;
+  color: #fff;
+  text-align: center;
+  padding: 14px 20px;
+  font-family: Roboto;
+  border-radius: 5px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.LabourCostParaGraph p {
+  margin-top: 30px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.vector {
+  margin-right: 10px;
+}
+.EstimationMethods {
+  font-weight: 600;
+  font-size: 17px;
+}
+.text-left {
+  text-align: left;
+}
+.RESIDENTIAL_ESTIMATION {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  margin-top: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.tick {
+  margin-right: 10px;
+}
+.costContaainer button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #68a1d2;
+  color: #fff;
+  text-align: center;
+  transition: 0.5s;
+  padding: 14px 20px;
+  font-family: Roboto;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 200px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.costContaainer button:hover {
+  background-color: #28425e;
+  transition: 0.5s;
+}
+.residental_Estimate {
+  font-weight: 400;
+  font-size: 16px;
+}
+.industtrialPicContainer {
+  padding: 50px;
+  padding-bottom: 30px;
+}
+.IndustyrialPic {
+  width: 100%;
+  display: inline-block;
+}
+.card-bodyCustom h5 {
+  color: white;
+}
+.card-bodyCustom {
+  background-color: #337ab7;
+}
+.card-bodyCustom .costumlink {
+  color: white;
+}
+
+@media screen and (max-width: 996px) {
+  .costContaainer {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .industtrialPicContainer {
+    padding: 0px;
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+  }
+  .estimationDiv {
+    width: 100%;
+    margin-top: 30px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(
+      180deg,
+      #3360b7 0%,
+      rgba(46, 111, 166, 0.95) 54.69%,
+      rgba(0, 0, 0, 0.47) 100%,
+      rgba(6, 17, 20, 0.24) 100%
+    );
+  }
+}
+@media screen and (max-width: 550px) {
+  .industtrialPicContainer {
+    padding: 0px;
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+  }
+  .estimationDiv p {
+    padding: 20px;
+    color: #fff;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    text-align: left;
+    font-weight: 800;
+    margin-bottom: 0px;
+    line-height: normal;
+  }
+  .CostType {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    color: #68a1d2;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .costContaainer span {
+    background-color: #68a1d2;
+    color: #fff;
+    text-align: center;
+    padding: 9px 13px;
+    font-family: Roboto;
+    border-radius: 5px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .RESIDENTIAL_ESTIMATION {
+    color: #000;
+    font-family: Roboto;
+    font-size: 17px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .LabourCostParaGraph p {
+    margin-top: 23px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .costContaainer button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #68a1d2;
+    color: #fff;
+    text-align: center;
+    transition: 0.5s;
+    padding: 8px 13px;
+    font-family: Roboto;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 178px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .costContaainer {
+    margin-top: 30px;
+  }
+}

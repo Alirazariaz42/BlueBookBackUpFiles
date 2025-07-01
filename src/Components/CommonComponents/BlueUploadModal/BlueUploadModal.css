@@ -1,0 +1,119 @@
+.appJustifyCenterItem{
+    display: flex;
+    justify-content: center;
+  }
+
+.modalMainContainer{
+    width: 700px !important;
+}
+
+.modalTitle{
+    background-color: #337ab7;
+    padding: 2%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.modalSubHeading{
+    padding: 2%;
+    color: #337ab7;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.modalInput{
+   padding: 0px 20px;
+   font-size: 20px !important;
+   font-family: "Roboto";
+   font-weight: 600;
+}
+
+.modalUpload{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px !important;
+}
+
+.uploadStyle{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Roboto";
+    text-align: center;
+
+}
+
+.modalLinkText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto";
+}
+
+.modalLinkSubText{
+    cursor: pointer;
+    color: #337ab7;
+    font-weight: 600;
+
+}
+
+.modalLinkSocial{
+    display:flex;
+}
+
+.modalSubmitButton{  
+    width: 100%;
+    font-family: "Robot";
+    font-weight: 700;
+    color: White;
+    white-space: normal  !important;
+    background-color: none;
+    border-color: #337ab7 !important;
+    color: #337ab7;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.modalSubmitButton:hover{
+    color: black !important;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 809px)
+
+{  
+    .modalTitle{
+        font-size: 26px;
+     
+    }
+    
+    .modalSubHeading{
+        font-size: 16px; 
+    }
+    
+    
+}
+
+@media screen and (max-width: 599px) 
+{
+    .modalTitle{
+        font-size:17px;
+     
+    }
+    
+    .modalSubHeading{
+        font-size: 14px; 
+    }
+    
+}

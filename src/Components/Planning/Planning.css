@@ -1,0 +1,38 @@
+.ProjectsPlanning {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px 25px;
+}
+.cardSubTextA {
+  padding: 15px 0;
+  color: white !important;
+  text-decoration-line: none !important;
+  font-size: 14px;
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+.CardText:hover {
+    position: absolute;
+    height: 320px;
+    width: 220px;
+    border-radius: 10px;
+    top: 0px;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-img-top {
+    width: 100%;
+    height: 230px;
+}
+@media screen and (max-width:500px) {
+  .card-img-top{
+    height: 180px;
+  }
+}

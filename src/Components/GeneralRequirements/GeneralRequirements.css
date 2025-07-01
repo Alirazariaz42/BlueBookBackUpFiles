@@ -1,0 +1,67 @@
+.CSIDivision p{
+    padding: 20px 160px;
+    text-align: center;
+}
+.imgcontainer{
+    height: 200px;
+    position: relative;
+    width: 200px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 10px;
+    overflow: hidden;
+    
+}
+.imgcontainer1{
+    background-image: url('../../Assests/Ventilating.png');
+    background-size: 100% 100%; 
+}
+.imgcontainer2{
+    background-image: url('../../Assests/cooling.png');
+    background-size: 100% 100%; 
+}
+.imgcontainer3{
+    background-image: url('../../Assests/Heating.png');
+    background-size: 100% 100%; 
+}
+.imgcontainer4{
+    background-image: url('../../Assests/Lighting.png');
+    background-size: 100% 100%; 
+}
+
+.ImgCardContainer{
+    height: 200px;
+    width: 200px;
+    opacity: 0;
+    transition: .5s;
+}
+.ImgCardContainer:hover{
+    padding-top: 80px;
+    opacity: 1;
+  transition: .5s;
+}
+.ImgCardContainer p{
+    background-color: rgb(19 38 58 / 81%);
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+    color: white;
+}
+.Facilities_and_Controls{
+    text-align: center;
+    padding: 30px;
+    color: #4D8DC5;
+    font-weight: 700;
+}
+
+@media screen and (max-width:700px) {
+   
+    .CSIDivision p {
+        padding: 20px 50px;
+        text-align: center;
+        
+    }
+}

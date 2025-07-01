@@ -1,0 +1,207 @@
+.PageNameContainer {
+  height: 70px;
+  margin-top: 20px;
+  background-image: linear-gradient(
+    180deg,
+    #3360b7 0%,
+    rgba(46, 111, 166, 0.95) 54.69%,
+    rgba(0, 0, 0, 0.47) 100%,
+    rgba(6, 17, 20, 0.24) 100%
+  );
+  display: flex;
+  align-items: center;
+}
+.PageNameContainer p {
+  padding: 5px;
+  padding-left: 50px;
+  color: white;
+  margin: 0px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 23px;
+}
+.imageSize {
+  width: 400px;
+  width: 400px;
+}
+.BlackBGSubHeading {
+  background-color: black;
+}
+.BlackBGSubHeading p {
+  padding: 20px 05px;
+  text-align: center;
+  color: #4d8dc5;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.TakeOffText {
+  color: #000;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 18px;
+  padding: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.CSIDivisions {
+  border: 2px solid #4d8dc5;
+  border-radius: 6px;
+  display: flex;
+  padding: 10px;
+  margin: 30px 10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.CSIDivisions p {
+ 
+  padding: 10px;
+  margin: 10px;
+  padding-right: 40px;
+  color: #000;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.CSIDivisions button{
+  background-color:#4d8dc5;
+  transition: .5s;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  
+  padding: 20px;
+}
+.CSIDivisions button:hover{
+  background-color:#014b8d;
+  transition: .5s;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  text-align: right;
+  padding: 20px;
+}
+.Material_Takeoff_List{
+  margin: 25px 0px;
+  margin-bottom: 35px;
+  color: #337AB7;
+  padding: 25px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.btnConstruction{
+  background-color: #337AB7;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  width: 42%;
+
+  
+}
+.Construction_SoftwareimageSize{
+  width: 500px;
+  height: 450px;
+}
+.flex-center{
+  display: flex;
+  align-items: baseline;
+}
+
+@media screen and (max-width:1200px) {
+  .Construction_SoftwareimageSize{
+    width: 100%;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width:900px) {
+  .PlansBtn{
+    margin-top: 10px;
+  }
+  .Construction_SoftwareimageSize {
+    width: 100%;
+    height: 308px;
+}
+}
+
+@media screen and (max-width:800px) {
+  .flex-center{
+    display: flex;
+    align-items: center;
+  }
+ 
+  .btnConstruction{
+    width: 100%;
+  }
+  .CSIDivisions p {
+   
+    padding-right: 10px;
+  
+    font-size: 18px;
+  }
+  .customTitle{
+    font-size: 17px;
+  }
+  .PageNameContainer {
+    height: 60px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  
+}
+.PageNameContainer p {
+  padding: 5px;
+  color: white;
+  margin: 0px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 18px;
+}
+.BlackBGSubHeading p {
+  padding: 15px 5px;
+  text-align: center;
+  color: #4d8dc5;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.Material_Takeoff_List {
+  margin: 10px 0px;
+  margin-bottom: 35px;
+  color: #337AB7;
+  padding: 14px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+}
+
+@media screen and (max-width:450px){
+  .CSIDivisions p {
+    padding: 2px;
+    font-size: 14px;
+}
+.imageSize{
+  width: 100%;
+}
+}

@@ -1,0 +1,18 @@
+.AboutUsRightPart h2 {
+  color: #337ab7;
+  text-align: center;
+  font-family: Roboto;
+   margin-top: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.AboutUsRightPart p {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

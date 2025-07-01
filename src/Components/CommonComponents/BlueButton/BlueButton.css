@@ -1,0 +1,45 @@
+.buttonContainer {
+  width: 100%;
+  font-family: "Robot";
+  font-weight: 700;
+  color: White;
+  padding: 1%;
+  white-space: normal !important;
+}
+
+.blueButton {
+  background-color: #337ab7 !important;
+  border-color: #337ab7 !important;
+}
+
+.redButton {
+  background-color: red !important;
+  border-color: red !important;
+}
+
+.blackButton {
+  background-color: black;
+  border-color: black !important;
+}
+
+.noColorButton {
+  background-color: none;
+  border-color: #337ab7 !important;
+  color: #337ab7;
+}
+
+.blueButton:hover {
+  color: black !important;
+}
+
+.redButton:hover {
+  color: black !important;
+}
+
+.blackButton:hover {
+  color: #337ab7 !important;
+}
+
+.noColorButton:hover {
+  color: black !important;
+}

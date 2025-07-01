@@ -1,0 +1,82 @@
+
+
+.CardContainercustom {
+    background-color: #337AB7;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* display: inherit; */
+    transition: .5s;
+    display: flex;
+    width: 500px;
+    border-radius: 10px;
+    left: 25% !important;
+    padding: 10px;
+    min-height: 450px;
+}
+
+
+
+@media screen and (max-width: 990px) 
+{
+    .CardContainercustom {
+       
+        left: 16% !important;
+        width: 450px
+       
+}
+}
+@media screen and (max-width: 770px) 
+{
+    .CardContainercustom {
+       
+        left: 2% !important;
+        width: 450px
+       
+}
+}
+
+@media screen and (max-width: 500px) 
+{
+    .CardContainercustom {
+       
+        left: 3% !important;
+        width: 93%
+       
+}
+}
+@media screen and (max-width: 420px) 
+{
+    .CardContainercustom {
+       
+        left: 3% !important;
+        width: 95%
+       
+}
+.clientReview p{
+    font-size: 14px;
+}
+.clientReview h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+.clientReview h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+.clientReview h4{
+    font-size: 16px;
+    
+}
+}
+@media screen and (max-width: 375px) 
+{
+    .CardContainercustom {
+       
+        left: 3% !important;
+        width: 95%;
+      
+}
+}

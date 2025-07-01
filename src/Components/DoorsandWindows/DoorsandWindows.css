@@ -1,0 +1,21 @@
+.headingStyling {
+  background: #337AB7;
+  color: white;
+  font-weight: 700;
+  /* text-align: center; */
+  padding: 10px 30px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.doorWindowimgContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doorWindowimgContainer img{
+    height: 180px;
+    width: 250px;
+}

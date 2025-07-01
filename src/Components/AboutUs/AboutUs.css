@@ -1,0 +1,457 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.Headings {
+  color: #337ab7;
+  font-family: Roboto;
+  margin: 40px;
+  font-size: 32px;
+  font-weight: 700;
+}
+.Description p {
+  font-size: 18px;
+  text-align: justify;
+}
+.bannerContainer {
+  background-image: linear-gradient(
+    180deg,
+    #337ab7 0%,
+    rgba(0, 0, 0, 0.47) 100%,
+    rgba(6, 17, 20, 0.24) 100%
+  );
+}
+.bannerContainer p {
+  color: #ff0;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  margin-top: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bannerContainer .offer {
+  background-color: #337ab7;
+  color: #ff0;
+  text-align: center;
+  margin: 5px;
+  font-family: Roboto;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Mini-Heading {
+  color: #337ab7;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.OurServices {
+  color: #000;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px;
+}
+.UnorderList li {
+  padding: 10px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.AmongClientsSection ul li {
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  padding: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Contact_offer {
+  background-color: red;
+  color: white;
+  text-align: center;
+  margin: 5px;
+  font-family: Roboto;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.tex_Descripotion {
+  color: #000;
+  padding: 50px;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.FearureContainer {
+  position: relative;
+}
+.check_SVG_Container {
+  position: absolute;
+}
+.FeactureData {
+  margin-left: 70px;
+}
+.FeactureData h4 {
+  color: #337ab7;
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.FeactureData p {
+  color: #000;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.bannercontainerBG {
+  background-image: url("../../Assests/BannerBG.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 10px 10px;
+}
+
+.bannercontainerBG p {
+  color: #fff;
+ 
+  text-shadow: 2px 2px 0px black;
+  word-spacing: 4px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33px;
+  padding: 20px 20px;
+}
+.PlansBtn{
+  border-radius: 7px;
+    background: #182C42;
+    margin-top: 60px;
+    padding: 5px 20px;
+    box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.25);
+
+}
+.PlansBtn span{
+  text-transform: uppercase;
+  
+  text-shadow: 2px 2px 0px black;
+  word-spacing: 3px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.Upload{color: white;}
+.plans{color: red;}
+.PlanUploadImgs{
+  height: 50px;
+  width: 50px;
+}
+
+@media screen and (max-width: 900px) {
+  .bannercontainerBG {
+    background-image: url("../../Assests/BannerBG.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 10px 10px;
+  }
+  
+  .bannercontainerBG p {
+  
+    color: #fff;
+   
+    text-shadow: 2px 2px 0px black;
+    word-spacing: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33px;
+    padding: 15px 15px;
+  }
+  .PlansBtn {
+    border-radius: 7px;
+    background: #182C42;
+   
+    padding: 2px 10px;
+    box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.25);
+}
+  .PlansBtn span{
+    text-transform: uppercase;
+    word-spacing: 3px;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .Upload{color: white;}
+  .plans{color: red;}
+  
+}
+@media screen and (max-width: 750px) {
+  .bannercontainerBG {
+    background-image: url("../../Assests/BannerBG.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 10px 10px;
+  }
+  
+  .bannercontainerBG p {
+      color: #fff;
+     
+    text-shadow: 2px 2px 0px black;
+      word-spacing: 4px;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 33px;
+      padding: 10px 10px;
+  }
+  .PlansBtn {
+    border-radius: 7px;
+    background: #182C42;
+    margin-top: 10px;
+    padding: 8px 10px;
+    box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.25);
+}
+  .PlansBtn span{
+   
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .Upload{color: white;}
+  .plans{color: red;}
+  .PlanUploadImgs{
+    height: 40px;
+    width: 40px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .bannercontainerBG {
+    background-image: url("../../Assests/BannerBG.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 10px 10px;
+  }
+  
+  .bannercontainerBG p {
+      color: #fff;
+      text-shadow: 2px 2px 0px black;
+      word-spacing: 4px;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 33px;
+      padding: 10px 10px;
+  }
+  .PlansBtn {
+    border-radius: 7px;
+    background: #182C42;
+   
+    padding: 10px 15px;
+    box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.25);
+}
+  .PlansBtn span{
+   
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .Upload{color: white;}
+  .plans{color: red;}
+  
+}
+@media screen and (max-width: 600px) {
+  .bannercontainer p {
+    word-spacing: 30px;
+    color: #ff0;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .OurServices {
+    color: #000;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+  }
+  .UnorderList li {
+    padding: 10px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .AmongClientsSection ul li {
+    font-size: 18px;
+  }
+  .Headings {
+    color: #337ab7;
+    font-family: Roboto;
+    margin: 20px;
+    font-size: 32px;
+  }
+  .tex_Descripotion {
+    color: #000;
+    padding: 35px;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .FeactureData h4 {
+    color: #337ab7;
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .Contact_offer {
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 5px;
+    font-family: Roboto;
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+@media screen and (max-width: 550px) {
+  .bannercontainerBG {
+    background-image: url("../../Assests/BannerBG.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 10px 10px;
+  }
+  .Mini-Heading {
+    color: #337ab7;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .OurServices {
+    color: #000;
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+  }
+  .UnorderList li {
+    padding: 10px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .bannercontainerBG p {
+    color: #fff;
+   
+    text-shadow: 2px 2px 0px black;
+    word-spacing: 4px;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    padding: 5px 8p
+  }
+  .PlansBtn {
+    border-radius: 7px;
+    background: #182C42;
+   
+    padding: 10px 14px;
+    box-shadow: 10px 10px 13px 0px rgba(0, 0, 0, 0.25);
+}
+  .PlansBtn span{
+   
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-size: 15px;
+    font-weight: 800;
+  }
+  .Upload{color: white;}
+  .plans{color: red;}
+  .PlanUploadImgs{
+    height: 36px;
+    width: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .AmongClientsSection ul li {
+    font-size: 17px;
+  }
+  .Headings {
+    color: #337ab7;
+    font-family: Roboto;
+    margin: 25px;
+    font-size: 25px;
+}
+}
